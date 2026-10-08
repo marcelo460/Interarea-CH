@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz: Mulheres de Saubara | Amefricanidade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="path/to/image.jpg" alt="Equipe de Ciências Humanas - SESI Milton Santos">
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="quiz-container">
+        <h1>Quiz: Protagonismo e Memória em Saubara</h1>
+        <p>Teste seus conhecimentos sobre as práticas culturais e a história das mulheres negras em Saubara.</p>
+
+        <!-- Caixa onde o quiz interativo vai rodar -->
+        <div id="quiz-box">
+            <div id="question-container">
+                <h2 id="question-text">Carregando pergunta...</h2>
+                <div id="options-container" class="options-grid">
+                    <!-- As alternativas aparecerão aqui via JavaScript -->
+                </div>
+            </div>
+
+            <!-- Botão para avançar -->
+            <button id="next-btn" class="btn-hidden">Próxima Pergunta</button>
+        </div>
+
+        <!-- Tela de Resultado (fica oculta até o fim do quiz) -->
+        <div id="result-container" class="btn-hidden" style="display: none;">
+            <h2>Fim do Quiz!</h2>
+            <p id="score-text"></p>
+            <a href="quiz.html" class="btn-quiz">Jogar Novamente</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>2026 - Escola SESI Milton Santos</p>
+    </footer>
+
+    <!-- Chamando o seu arquivo JavaScript externo -->
+    <script src="script.js"></script>
+</body>
+</html>
