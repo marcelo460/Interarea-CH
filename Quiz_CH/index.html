@@ -1,38 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Memórias de Saubara | Amefricanidade</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Memórias de Saubara | Amefricanidade</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="LOGO.PNG" alt="Equipe de Ciências Humanas - SESI Milton Santos">
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="quiz.html">Quiz</a></li>
-                <li><a href="about.html">Sobre</a></li>
-                <li><a href="contact.html">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+  <div class="logo">Ciências Humanas<small>SESI Milton Santos</small></div>
+  <nav><ul>
+    <li><a href="#inicio" data-v="inicio">Início</a></li>
+    <li><a href="#quiz" data-v="quiz">Quiz</a></li>
+    <li><a href="#sobre" data-v="sobre">Sobre</a></li>
+  </ul></nav>
+</header>
 
-    <main>
-        <section class="hero">
-            <h1>O Protagonismo das Mulheres Negras em Saubara</h1>
-            <p>Somos a equipe de Ciências Humanas da escola SESI Milton Santos. Neste site, iremos compartilhar nossos conhecimentos acerca da <strong>Amefricanidade</strong>, buscando explicar os conceitos e resgatar as memórias e práticas culturais do município de Saubara, na Bahia, de forma clara e objetiva.</p>
-            
-            <!-- Botão rápido para a página do Quiz -->
-            <a href="quiz.html" class="btn-quiz">Jogar o Quiz</a>
-        </section>
-    </main>
+<main>
+  <section class="view hero" id="v-inicio">
+    <h1>O Protagonismo das Mulheres Negras em Saubara</h1>
+    <p>Somos a equipe de Ciências Humanas da escola SESI Milton Santos. Neste site, compartilhamos nossos conhecimentos acerca da <strong>Amefricanidade</strong>, buscando explicar os conceitos e resgatar as memórias e práticas culturais do município de Saubara, na Bahia, de forma clara e objetiva.</p>
+    <a href="#quiz" class="btn">Jogar o Quiz</a>
+  </section>
 
-    <footer>
-        <p>2026 - Escola SESI Milton Santos</p>
-    </footer>
+  <section class="view" id="v-quiz">
+    <h1>Quiz: Memória e Resistência</h1>
+    <div id="quiz"></div>
+  </section>
 
-    <script src="script.js"></script>
+  <section class="view" id="v-sobre">
+    <h1>Sobre</h1>
+    <p>Este projeto reúne reflexões da equipe de Ciências Humanas sobre a Amefricanidade, conceito de Lélia Gonzalez, e sobre o papel de mulheres negras na Independência da Bahia, com destaque para Maria Felipa, as Vedetas da Praia e as Caretas do Mingau.</p>
+    <p>Reconhecer essas mulheres é um passo para ampliar a memória coletiva e valorizar a cultura de Saubara.</p>
+  </section>
+</main>
+
+<footer><p>2026 - Escola SESI Milton Santos</p></footer>
+
+<script src="script.js"></script>
 </body>
 </html>
